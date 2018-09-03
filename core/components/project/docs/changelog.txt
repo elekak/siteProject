@@ -1,0 +1,7 @@
+1.0.2-beta
+==============
+- Added archive with local files in (assets/components/project/app.zip)
+
+1.0.1-beta
+==============
+- First release

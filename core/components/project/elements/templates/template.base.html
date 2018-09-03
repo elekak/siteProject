@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--$head-->
+{include 'head'}
+<body>
+<!--$header-->
+{include 'header'}
+
+<section class="s_pages">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        {if $_modx->resource.id == 1}
+        <a href="#" class="call">Модалка !!!</a>
+        {else}
+        {$_modx->resource.content}
+        {/if}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--$footer-->
+{include 'footer'}
+<!--$modals-->
+{include 'modals'}
+<!--$js-->
+{include 'js'}
+<!--$metrical-->
+{include 'metrical'}
+</body>
+</html>

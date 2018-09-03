@@ -1,0 +1,20 @@
+<head>
+    <title>{if $_modx->resource.longtitle}{$_modx->resource.longtitle}{else}{$_modx->resource.pagetitle}{/if} - {$_modx->config.site_name}</title>
+    <meta name="keywords" content="{$_modx->resource.introtext | strip_tags | limit : 99}">
+    <meta name="description" content="{$_modx->resource.description | strip_tags | limit : 99}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- pre load -->
+    <link rel="stylesheet" href="PROJECT_URL/app/css/pre.min.css">
+
+
+    <link rel="stylesheet" href="PROJECT_URL/app/css/main.min.css">
+
+    <base href="{$_modx->config.site_url}" />
+</head>
+
+<div class="preload">
+    <div class="pulse"></div>
+</div>
