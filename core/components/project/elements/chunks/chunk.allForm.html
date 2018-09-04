@@ -18,7 +18,7 @@
     'frontend_css'                            => '',
     'frontend_js'                             => 'assets/components/project/app/js/ajaxForm.js',
     'hooks'                                   => 'email',
-    'emailSubject'                            => $emailSubject ? $emailSubject : 'Заявка на обратный звонок с сайта' ~ $_modx->config.site_url,
+    'emailSubject'                            => $emailSubject ? $emailSubject ~ $_modx->config.site_url : 'Заявка на обратный звонок с сайта' ~ $_modx->config.site_url,
     'emailFrom'                               => $_modx->config.emailsender,
     'emailFrom'                               => $_modx->config.emailsender,
     'emailTo'                                 => $_modx->config.key_email ? $_modx->config.key_email : 'palma.elekak@yandex.ru',
