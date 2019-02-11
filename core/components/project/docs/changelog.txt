@@ -1,11 +1,15 @@
+1.0.4-beta
+==============
+- Изменение некоторых tpl и javascript файлов
+
 1.0.3-beta
 ==============
-- Minor change
+- Незначительное изменение
 
 1.0.2-beta
 ==============
-- Added archive with local files in (assets/components/project/app.zip)
+- Добавлен архив с локальными файлами в (assets/components/project/app.zip)
 
 1.0.1-beta
 ==============
-- First release
+- Первый релиз

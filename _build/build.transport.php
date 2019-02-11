@@ -38,5 +38,5 @@ $addons = array(
         )),
 );
 
-$builder = new siteBuilder('project', '1.0.2', 'rc', $resolvers, $addons);
+$builder = new siteBuilder('project', '1.0.4', 'rc', $resolvers, $addons);
 $builder->build();

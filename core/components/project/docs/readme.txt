@@ -1,1 +1,1 @@
-Site package for MODx Revolution.
+Пакет быстрого старта. MODx Revolution
