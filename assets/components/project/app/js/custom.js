@@ -16,9 +16,9 @@ var objM = {
             $('[type="phone"]').mask('+7 (999) 999-99-99');
 
             $('.call').on('click',function (e) {
-                e.preventDefault();
-                $('#exampleModal').modal();
-            });
+			  e.preventDefault();
+			  $('#exampleModal').modal();
+		   });
 
 		    $('.privacy_policy').on('click',function (e) {
 			   e.preventDefault();

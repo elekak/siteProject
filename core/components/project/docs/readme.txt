@@ -1,1 +1,1 @@
-Пакет быстрого старта. MODx Revolution
+Пакет для быстрого старта. MODx Revolution

@@ -1,3 +1,5 @@
 # siteExtra
+Пакет для быстрого старта. MODx Revolution
 
-Заготовка для разработки сайтов на MODX
+## build
+site.ru/siteProject/_build/build.transport.php
