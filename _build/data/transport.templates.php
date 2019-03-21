@@ -8,7 +8,11 @@ $tmp = array(
     $this->config['PACKAGE_NAME'] => array(
         'file' => 'base',
         'description' => ''
-    )
+    ),
+	$this->config['PACKAGE_NAME'] => array(
+		'file' => 'default',
+		'description' => ''
+	)
 );
 $setted = false;
 foreach ($tmp as $k => $v) {
