@@ -1,9 +1,0 @@
-{
-  "name": "example",
-  "version": "0.0.1",
-  "dependencies": {
-    "jquery": "~2.2.4",
-    "owl.carousel": "owl-carousel2#^2.3.4",
-    "bootstrap4": "^4.1.1"
-  }
-}
